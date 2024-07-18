@@ -1,16 +1,6 @@
+/* src/App.css */
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -24,15 +14,34 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.user-list {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.user-list h1 {
+  margin-bottom: 20px;
+}
+
+.user-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-list li {
+  background-color: #f4f4f4;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-list li h2 {
+  margin: 0;
+}
+
+.user-list li p {
+  margin: 5px 0;
 }
